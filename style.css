@@ -51,6 +51,28 @@ nav > #items > .item {
     border-bottom: #E7ECEF;
     border-style: solid;
     box-shadow: 0px 20px #6096BA;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media screen and (max-width:1094px) {
+    #jumbotron {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width:400px) {
+    nav {
+        width: 100vw
+    }
+    nav > #items > .item {
+        font-size: small;
+    }
+}
+@media screen and (max-width:500px) {
+    #jumbotron > #right > img {
+        width: 200px;
+    }
 }
 
 #jumbotron > #left > #name {
@@ -80,31 +102,34 @@ nav > #items > .item {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    padding: 40px 20px;
 }
 
 #about-me > h1 {
     text-align: left;
-    font-size: 72px;
+    font-size: 48px;
     margin-bottom: 0;
 }
 
 #about-me > p {
-    font-size: larger;
+    font-size: 24px;
+    text-align: justify;
 }
 
 #projects {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    padding: 40px 20px;
 }
 
 #projects > h1 {
     text-align: right;
-    font-size: 72px;
+    font-size: 48px;
 }
 
 #projects > p {
-    font-size: 48px;
+    font-size: 24px;
     text-align: center;
 }
 
@@ -114,8 +139,8 @@ nav > #items > .item {
 
 #contact {
     max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto ;
+    margin-right: auto ;
     background-color: #274C77;
     padding: 20px;
     border-top-left-radius: 20px;
@@ -124,7 +149,7 @@ nav > #items > .item {
 
 #contact > h1 {
     text-align: center;
-    font-size: 72px;
+    font-size: 48px;
     color: #E7ECEF;
 }
 
