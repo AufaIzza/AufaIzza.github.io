@@ -1,0 +1,134 @@
+* {
+    font-family: "Fira Code", monospace;
+}
+body {
+    background-color: #E7ECEF;
+    color: #00171f;
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #E7ECEF;
+    margin: 0;
+    width: 100%;
+    height: 40px;
+    align-content: center;
+    flex-wrap: wrap;
+    position: fixed;
+}
+
+strong {
+    color: #6096BA;
+}
+
+nav > #items {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+}
+
+nav > #items > .item {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+
+#jumbotron {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 140px;
+    height: 100%;
+    background-color: #274C77;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: #E7ECEF;
+    border-style: solid;
+    box-shadow: 0px 20px #6096BA;
+}
+
+#jumbotron > #left > #name {
+    text-align: center;
+    color: #E7ECEF;
+    font-size: xx-large;
+}
+
+#jumbotron > #left > #name  strong {
+    color: #A3CEF1;
+}
+
+#jumbotron > #left > #links {
+    text-align: center;
+    justify-content: center;
+}
+
+#jumbotron > #right > img {
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #E7ECEF;
+    box-shadow: 10px 10px #6096BA;
+    max-width: 400px
+}
+
+#about-me {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-me > h1 {
+    text-align: left;
+    font-size: 72px;
+    margin-bottom: 0;
+}
+
+#about-me > p {
+    font-size: larger;
+}
+
+#projects {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#projects > h1 {
+    text-align: right;
+    font-size: 72px;
+}
+
+#projects > p {
+    font-size: 48px;
+    text-align: center;
+}
+
+#projects > p > a {
+    text-decoration: none;
+}
+
+#contact {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #274C77;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#contact > h1 {
+    text-align: center;
+    font-size: 72px;
+    color: #E7ECEF;
+}
+
+#contact > p {
+    text-align: center;
+    color: #E7ECEF;
+}
