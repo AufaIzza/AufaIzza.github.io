@@ -112,7 +112,7 @@ section {
     padding: 40px 20px 40px 20px;
 }
 
-section:nth-child(odd) {
+section:nth-child(even) {
     background-color: #dce2f0;
     border-radius: 20px;
 }
@@ -145,6 +145,8 @@ a {
     padding: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 #contact > h1 {
