@@ -61,10 +61,6 @@ nav > #items > .item {
         width: 100vw
     }
 
-    nav > #items {
-
-    }
-
     nav > #items > .item {
         font-size: small;
     }
@@ -137,7 +133,7 @@ section ul li {
     text-align: justify;
 }
 
-section p a {
+a {
     text-decoration: none;
 }
 
@@ -171,10 +167,17 @@ section p a {
     justify-content: space-between;
     gap: 10px;
     flex-wrap: wrap;
+    margin-top: 40px;
 }
 
 .skills-item {
     padding: 20px;
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.skills-item ul li {
+    font-size: 18px;
 }
 
 .skills-item:nth-child(even) {
