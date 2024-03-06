@@ -154,3 +154,22 @@ section p a {
     text-align: center;
     color: #E7ECEF;
 }
+
+#skills > h1 {
+    text-align: center;
+}
+
+#skills-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.skills-item {
+    padding: 20px;
+}
+
+.skills-item:nth-child(even) {
+    background-color: #dce2f0;
+    border-radius: 20px;
+}
