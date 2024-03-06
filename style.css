@@ -10,7 +10,7 @@ body {
 nav {
     display: flex;
     justify-content: center;
-    margin: 0;
+    margin: 40px 0;
     width: 100%;
     height: 40px;
     align-content: center;
@@ -25,10 +25,12 @@ nav > #items {
     display: flex;
     align-content: center;
     text-align: center;
+    flex-wrap: wrap;
     gap: 20px;
     padding: 10px;
     border-radius: 20px;
     background-color: #E7ECEF;
+    justify-content: center;
 }
 
 nav > #items > .item {
@@ -58,6 +60,11 @@ nav > #items > .item {
     nav {
         width: 100vw
     }
+
+    nav > #items {
+
+    }
+
     nav > #items > .item {
         font-size: small;
     }
@@ -163,6 +170,7 @@ section p a {
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .skills-item {
