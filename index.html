@@ -10,20 +10,21 @@
     <script src="./script.js" defer></script>
 </head>
 <body >
-    <main class="bg-slate-300 h-screen">
-        <div class="flex flex-col bg-slate-100 max-w-xl p-2 ml-auto mr-auto rounded-lg h-screen">
+    <header class="bg-slate-300 h-screen p-4">
+        <div class="flex flex-col bg-slate-100 max-w-4xl p-4 ml-auto mr-auto rounded-lg h-fit">
             <img class="rounded h-40 w-full object-cover object-center self-center mb-16" src="./resources/logo.png" alt="logo">
             <img class="rounded-full w-52 h-52 self-center absolute outline outline-white" src="./resources/profile-photo.jpeg" alt="selfie">
             <h1 class="text-4xl font-mono font-black text-center mb-2">AUFASHIQI IZZA MUHAMMAD</h1>
             <hr class="h-1">
-            <nav class="flex gap-4 mr-auto ml-auto mt-2 flex-wrap">
+            <nav class="flex gap-4 mr-auto ml-auto mt-2 mb-2 flex-wrap">
                 <button class="hover:bg-blue-300 hover:rounded p-1" id="about">About</button>
                 <button class="hover:bg-blue-300 hover:rounded p-1" id="skills">Skills</button>
                 <button class="hover:bg-blue-300 hover:rounded p-1" id="education">Education</button>
                 <button class="hover:bg-blue-300 hover:rounded p-1" id="project">Projects</button>
             </nav>
+            <hr class="h-1">
+            <main class="mx-4 text-justify bg-slate-200 p-4 rounded my-4" id="content"></main>
         </div>
-        
-    </main>
+    </header>
 </body>
 </html>
