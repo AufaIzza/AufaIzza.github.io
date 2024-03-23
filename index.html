@@ -10,24 +10,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body >
-    <header class="bg-slate-300 h-full min-h-screen p-4">
-        <div class="flex flex-col bg-slate-100 max-w-4xl p-4 ml-auto mr-auto rounded-lg h-fit">
-            <img class="rounded h-40 w-full object-cover object-center self-center mb-16" src="./resources/logo.png" alt="logo">
-            <img class="rounded-full w-52 h-52 self-center absolute outline outline-white" src="./resources/profile-photo.jpeg" alt="selfie">
-            <h1 class="text-4xl font-mono font-black text-center mb-2">AUFASHIQI IZZA MUHAMMAD</h1>
-            <h2 class="text-sm mb-2 font-mono text-center font-bold">Artist &bull; FullStack Developer &bull; Game Developer</h2>
-            <hr class="h-1">
-            <nav class="flex gap-4 mr-auto ml-auto mt-2 mb-2 flex-wrap justify-center">
-                <button class="hover:bg-blue-300 hover:rounded p-1 font-mono" id="about">About</button>
-                <button class="hover:bg-blue-300 hover:rounded p-1 font-mono" id="skills">Skills</button>
-                <button class="hover:bg-blue-300 hover:rounded p-1 font-mono" id="education">Education</button>
-                <button class="hover:bg-blue-300 hover:rounded p-1 font-mono" id="project">Projects</button>
-                <button class="hover:bg-blue-300 hover:rounded p-1 font-mono" id="contact">Contact Info</button>
-                <button class="hover:bg-blue-300 hover:rounded p-1 font-mono" id="resume type="submit" onclick="window.open(`https://drive.google.com/file/d/1g4HUwc7jmB3i6oTahCUPJkeW_AntiE3b/view?usp=sharing`)">Resume</button>
+    <div class="bg-blue-300 min-h-screen p-4 absolute inset-0 h-max w-full bg-[radial-gradient(#FFFFFF_1px,transparent_2px)] [background-size:32px_32px]">
+        <div class="drop-shadow-md">
+            <header class="flex flex-col bg-slate-200 max-w-xl p-4 ml-auto mr-auto rounded-full h-fit mb-4 px-10 hover:rounded-lg">
+                <div>
+                    <h1 class="text-4xl font-mono font-black text-center mb-2">AUFASHIDQI IZZA MUHAMMAD</h1>
+                    <h2 class="text-sm mb-2 font-mono text-center font-bold ">Artist &bull; FullStack Developer &bull; Game Developer</h2>
+                </div>
+ 
+            </header>
+            <button class="flex justify-center drop-shadow bg-slate-300 rounded-full hover:bg-blue-200 hover:rounded p-1 font-mono w-52 ml-auto mr-auto mb-4" id="resume type="submit" onclick="window.open(`https://drive.google.com/file/d/1g4HUwc7jmB3i6oTahCUPJkeW_AntiE3b/view?usp=sharing`)">Download Resume</button>
+            <nav class="flex gap-4 mr-auto ml-auto mt-2 mb-2 flex-wrap justify-center ">
+                <button class="drop-shadow hover:bg-blue-200 hover:rounded-lg p-1 font-mono bg-slate-300 p-2 rounded-full" id="about">About</button>
+                <button class="drop-shadow hover:bg-blue-200 hover:rounded-lg p-1 font-mono bg-slate-300 p-2 rounded-full" id="skills">Skills</button>
+                <button class="drop-shadow hover:bg-blue-200 hover:rounded-lg p-1 font-mono bg-slate-300 p-2 rounded-full" id="education">Education</button>
+                <button class="drop-shadow hover:bg-blue-200 hover:rounded-lg p-1 font-mono bg-slate-300 p-2 rounded-full" id="project">Projects</button>
+                <button class="drop-shadow hover:bg-blue-200 hover:rounded-lg p-1 font-mono bg-slate-300 p-2 rounded-full" id="contact">Contact Info</button>
             </nav>
-            <hr class="h-1">
-            <main id="content"></main>
+            <div class="flex flex-col max-w-4xl p-4 ml-auto mr-auto rounded-lg h-fit ">
+                <main id="content" class="flex flex-col mx-auto">
+                    <p class="drop-shadow mx-auto bg-slate-300 p-4 rounded-full my-4 mt-2 hover:bg-blue-200 font-mono text-center max-w-xl hover:rounded-lg">^ Click a tab above ^</p>
+                </main>
+            </div>
+
         </div>
-    </header>
+    </div>
 </body>
 </html>

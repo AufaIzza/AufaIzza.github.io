@@ -12,7 +12,7 @@ btnEducation.addEventListener("click", showEducation)
 btnProject.addEventListener("click", showProjects)
 btnContactInfo.addEventListener('click', showContactInfo)
 
-const classTail = "mx-4 text-justify bg-slate-200 p-4 rounded my-4 mt-2 hover:bg-blue-200 font-mono"
+const classTail = "mx-auto drop-shadow max-w-xl mx-4 text-justify bg-slate-300 p-4 rounded-full my-4 mt-2 hover:bg-blue-200 py-10 px-10 font-mono hover:rounded-lg"
 
 function showAbout() {
     clearContent()
@@ -42,7 +42,7 @@ function showSkills() {
     const para3 = document.createElement('p')
     const para4 = document.createElement('p')
     para.innerHTML = "<strong>Language:</strong> Fluent in Indonesian and in English"
-    para2.innerHTML = "<strong>Technical:</strong> Ruby, Javascript, Go, HTML, CSS, GitHub. "
+    para2.innerHTML = "<strong>Technical:</strong> Ruby, Javascript, HTML, CSS, GitHub."
     para3.innerHTML = "<strong>Arts:</strong> Constructive Drawing, Anatomical Drawing, Graphic Design, Illustration"
     para4.innerHTML = "<strong>Other:</strong> Product Design, Planning, Time Management, Communication, Teamwork"
     para.className = classTail
@@ -90,6 +90,7 @@ function showContactInfo() {
     const paraEmail = document.createElement('p')
     const paraGithub = document.createElement('p')
     const paraLinkedIn = document.createElement('p')
+    const paraPhone = document.createElement('p')
 
     paraEmail.innerHTML = `<i class="fa fa-envelope"></i> aufashiqiizza@gmail.com`
     paraEmail.className = classTail
@@ -97,6 +98,9 @@ function showContactInfo() {
     paraGithub.className = classTail
     paraLinkedIn.innerHTML = `<i class="fa fa-linkedin-square"></i> <a href="https://www.linkedin.com/in/aufaizza/">aufaizza</a>`
     paraLinkedIn.className = classTail
+    paraPhone.innerHTML = `<i class="fa fa-phone"></i> +62-878-7756-4092`
+    paraPhone.className = classTail
+    content.appendChild(paraPhone)
     content.appendChild(paraEmail)
     content.appendChild(paraGithub)
     content.appendChild(paraLinkedIn)
