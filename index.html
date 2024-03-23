@@ -5,25 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Izza Portofolio</title>
     <link rel="shortcut icon" href="./resources/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body >
-    <header class="bg-slate-300 h-screen p-4">
+    <header class="bg-slate-300 h-full min-h-screen p-4">
         <div class="flex flex-col bg-slate-100 max-w-4xl p-4 ml-auto mr-auto rounded-lg h-fit">
             <img class="rounded h-40 w-full object-cover object-center self-center mb-16" src="./resources/logo.png" alt="logo">
             <img class="rounded-full w-52 h-52 self-center absolute outline outline-white" src="./resources/profile-photo.jpeg" alt="selfie">
             <h1 class="text-4xl font-mono font-black text-center mb-2">AUFASHIQI IZZA MUHAMMAD</h1>
+            <h2 class="text-sm mb-2 font-mono text-center font-bold">Artist &bull; FullStack Developer &bull; Game Developer</h2>
             <hr class="h-1">
-            <nav class="flex gap-4 mr-auto ml-auto mt-2 mb-2 flex-wrap">
-                <button class="hover:bg-blue-300 hover:rounded p-1" id="about">About</button>
-                <button class="hover:bg-blue-300 hover:rounded p-1" id="skills">Skills</button>
-                <button class="hover:bg-blue-300 hover:rounded p-1" id="education">Education</button>
-                <button class="hover:bg-blue-300 hover:rounded p-1" id="project">Projects</button>
+            <nav class="flex gap-4 mr-auto ml-auto mt-2 mb-2 flex-wrap justify-center">
+                <button class="hover:bg-blue-300 hover:rounded p-1 font-mono" id="about">About</button>
+                <button class="hover:bg-blue-300 hover:rounded p-1 font-mono" id="skills">Skills</button>
+                <button class="hover:bg-blue-300 hover:rounded p-1 font-mono" id="education">Education</button>
+                <button class="hover:bg-blue-300 hover:rounded p-1 font-mono" id="project">Projects</button>
+                <button class="hover:bg-blue-300 hover:rounded p-1 font-mono" id="contact">Contact Info</button>
+                <button class="hover:bg-blue-300 hover:rounded p-1 font-mono" id="resume type="submit" onclick="window.open(`https://drive.google.com/file/d/1g4HUwc7jmB3i6oTahCUPJkeW_AntiE3b/view?usp=sharing`)">Resume</button>
             </nav>
             <hr class="h-1">
-            <main class="mx-4 text-justify bg-slate-200 p-4 rounded my-4" id="content"></main>
+            <main id="content"></main>
         </div>
     </header>
 </body>
