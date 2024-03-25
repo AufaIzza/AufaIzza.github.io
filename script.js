@@ -12,7 +12,7 @@ btnEducation.addEventListener("click", showEducation)
 btnProject.addEventListener("click", showProjects)
 btnContactInfo.addEventListener('click', showContactInfo)
 
-const classTail = "mx-auto drop-shadow max-w-xl mx-4 text-justify bg-slate-300 p-4 rounded-full my-4 mt-2 hover:bg-blue-200 py-10 px-10 font-mono hover:rounded-lg"
+const classTail = "mx-auto drop-shadow max-w-xl mx-4 text-justify bg-slate-300 p-4 rounded-full my-4 mt-2 hover:bg-blue-200 py-10 px-10 font-mono hover:rounded-lg content transition"
 
 function showAbout() {
     clearContent()
