@@ -12,7 +12,7 @@ btnEducation.addEventListener("click", showEducation)
 btnProject.addEventListener("click", showProjects)
 btnContactInfo.addEventListener('click', showContactInfo)
 
-const classTail = "mx-auto drop-shadow max-w-xl mx-4 text-justify bg-slate-300 p-4 rounded-full my-4 mt-2 hover:bg-blue-200 py-10 px-10 font-mono hover:rounded-lg content transition"
+const classTail = "mx-auto drop-shadow max-w-xl mx-4 text-justify bg-slate-300 p-4 rounded-lg my-4 mt-2 hover:bg-blue-200 py-4 px-4 font-mono content transition"
 
 function showAbout() {
     clearContent()
@@ -76,7 +76,7 @@ function showProjects() {
     const para = document.createElement('p')
     const para2 = document.createElement('p')
     const div = document.createElement('div')
-    para.innerHTML = `<strong><a href="https://aufaizza.github.io/rps/" >Rock Paper Scissors</a></strong>`
+    para.innerHTML = `<strong><a href="https://aufaizza.github.io/rps/" class="underline" >Rock Paper Scissors</a></strong>`
     para2.innerHTML = "A simple Rock Paper Scissors game made with using JS, HTML, CSS"
     para.className = "text-xl"
     div.className = classTail
@@ -94,9 +94,9 @@ function showContactInfo() {
 
     paraEmail.innerHTML = `<i class="fa fa-envelope"></i> aufashiqiizza@gmail.com`
     paraEmail.className = classTail
-    paraGithub.innerHTML = `<i class="fa fa-github"></i> <a href="https://github.com/AufaIzza">AufaIzza</a>`
+    paraGithub.innerHTML = `<i class="fa fa-github"></i> <a href="https://github.com/AufaIzza" class="underline">AufaIzza</a>`
     paraGithub.className = classTail
-    paraLinkedIn.innerHTML = `<i class="fa fa-linkedin-square"></i> <a href="https://www.linkedin.com/in/aufaizza/">aufaizza</a>`
+    paraLinkedIn.innerHTML = `<i class="fa fa-linkedin-square"></i> <a href="https://www.linkedin.com/in/aufaizza/" class="underline">aufaizza</a>`
     paraLinkedIn.className = classTail
     paraPhone.innerHTML = `<i class="fa fa-phone"></i> +62-878-7756-4092`
     paraPhone.className = classTail
