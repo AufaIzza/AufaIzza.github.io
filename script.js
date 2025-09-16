@@ -57,15 +57,16 @@ function showAbout() {
 function showSkills() {
   clearContent();
   appendSimplePara("<strong>Language:</strong> Fluent in Indonesian and in English");
-  appendSimplePara("<strong>Technical:</strong> Ruby, Javascript, HTML, CSS, GitHub.");
+  appendSimplePara("<strong>Technical:</strong> Ruby, Javascript, HTML, CSS, GitHub, C.");
   appendSimplePara("<strong>Arts:</strong> Constructive Drawing, Anatomical Drawing, Graphic Design, Illustration");
   appendSimplePara("<strong>Other:</strong> Product Design, Planning, Time Management, Communication, Teamwork");
 }
 function showEducation() {
   clearContent();
   appendSimplePara("<strong>SMA Labschool Jakarta</strong> (2019-2021) - Science Major");
-  appendSimplePara("<strong>Telkom University</strong> (2021-Present) - Bachelor of Creative Arts");
+  appendSimplePara("<strong>Telkom University</strong> (2021-2025) - Bachelor of Creative Arts");
   appendSimplePara("<strong>harisenin.com</strong> (2024) - Full-Stack Web Developer Bootcamp");
+  appendSimplePara("<strong>President University</strong> (2025-Present) - Bachelor of Informatics");
 }
 
 function showProjects() {
@@ -80,6 +81,6 @@ function showContactInfo() {
   appendSimplePara(`<i class="fa fa-envelope"></i> aufashiqiizza@gmail.com`);
   appendSimplePara(`<i class="fa fa-github"></i> <a href="https://github.com/AufaIzza" class="underline">AufaIzza</a>`);
   appendSimplePara(`<i class="fa fa-linkedin-square"></i> <a href="https://www.linkedin.com/in/aufaizza/" class="underline">aufaizza</a>`);
-  appendSimplePara(`<i class="fa fa-phone"></i> +62-878-7756-4092`);
+  appendSimplePara(`<i class="fa fa-phone"></i> +62-812-8820-8275`);
 }
 
