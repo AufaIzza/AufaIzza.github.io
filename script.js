@@ -15,7 +15,7 @@ btnContactInfo.addEventListener('click', showContactInfo);
 const classTail = "mx-auto drop-shadow max-w-xl mx-4 text-justify bg-slate-300 p-4 rounded-lg my-4 mt-2 hover:bg-blue-200 py-4 px-4 font-mono content transition";
 
 /***
-  * @param {InnerHTML} paragraph 
+  * @param {InnerHTML} paragraph
   */
 function appendSimplePara(paragraph) {
   const para = document.createElement('p');
@@ -25,7 +25,7 @@ function appendSimplePara(paragraph) {
 }
 /***
   * @param {InnerHTML} title
-  * @param {InnerHTML} paragraph 
+  * @param {InnerHTML} paragraph
   */
 function appendDoublePara(title, paragraph) {
   const para = document.createElement('p');
@@ -66,7 +66,7 @@ function showEducation() {
   appendSimplePara("<strong>SMA Labschool Jakarta</strong> (2019-2021) - Science Major");
   appendSimplePara("<strong>Telkom University</strong> (2021-2025) - Bachelor of Creative Arts");
   appendSimplePara("<strong>harisenin.com</strong> (2024) - Full-Stack Web Developer Bootcamp");
-  appendSimplePara("<strong>President University</strong> (2025-Present) - Bachelor of Informatics");
+  appendSimplePara("<strong>President University</strong> (2025) - Bachelor of Informatics");
 }
 
 function showProjects() {
@@ -83,4 +83,3 @@ function showContactInfo() {
   appendSimplePara(`<i class="fa fa-linkedin-square"></i> <a href="https://www.linkedin.com/in/aufaizza/" class="underline">aufaizza</a>`);
   appendSimplePara(`<i class="fa fa-phone"></i> +62-812-8820-8275`);
 }
-
